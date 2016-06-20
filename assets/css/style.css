@@ -1,6 +1,7 @@
 /*This is the CSS Document of the Site*/
 body{
 	font-family: Lato;
+	color: black;
 }
 
 
@@ -9,557 +10,530 @@ nav {
 	margin-top: 0px;
 
 }
+
 a{
 	display: inline-block;
 	text-decoration: none;
 	color: white;
-	padding: 0px 5px 0px 2px;
+	padding: 0px 0px 0px 0px;
 }
 
 a img{
 	display: block;
 }
 
+.outerLayout {
+	background-color: white;
+	top: -1%;
+	left: -1%;
+	position: relative;
+	width: 102%;
+	height: 3100px;
+}
+ 
+.innerLayout {
+	width: 1050px;
+	left: 50%;
+	top: 50px;
+	transform: translateX(-50%);
+	position: absolute;
+	background-color: white;
+	height: 3000px;
+}
 
-.menuitem {
-	display: inline-block;
-	position: static;
+.introduction {
+	background-color: white;
+	width: 100%;
+	height: 500px;
 }
 
 .title {
-	float: left;
-	list-style-type: none;
-	font-size: 20px;
-	margin-top: 15px;
-	margin-left: 20px;
-}
-.menu {
-	display: inline-block;
+	top: 30px;
+	left: 55px;
+	position: relative;
+	font-size: 50px;
+	font-weight: 1px;
 }
 
-.navigationbar{
-	list-style-type: none;
-	position: fixed;
-	width: 100%;
-	height: 50px;
-	top: 0px;
-	background-color: black;
-	z-index: 15;
-	display: inline-block;
-	opacity: 0.7;
-	margin-left: -10px;
+.image {
+	top: -20px;
+	width: 70%;
+	height: 80%;
+	left: 30%;
+	position: relative;
 }
 
+.name {
+	width: 250px;
+	height: 40px;
+	padding-top: 5px;
+	background-color: white;
+	opacity: .5;
+	text-align: center;
+	left: 480px;
+	position: absolute;
+	top: 10px;
+	font-size: 30px;
 
 
-.work-img {
+}
+
+.SanFran {
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
-	position: fixed;
-	margin-top: -30px;
-	margin-left: -10px;
-}
-.welcome {
-	position: absolute;
-	display: inline-block;
-	left: 50%;
-	text-align: center;
-	transform: translateX(-50%);
-	bottom: 770px;
-	font-size: 60px;
-	float: left;
-	color: white;
-	top: 200px;
-	z-index: 10;
 }
 
-.black-img {
-	width: 101%;
-	height: 560px;
-	overflow: hidden;
-	position: absolute;
-	opacity: 0.1;
-	bottom: 265px;
-	margin-left: -10px;
-}
-
-
-.desk {
-	top: 150px;
-	width: 400px;
-	position: absolute;
-	transform: translateX(-50%) ;
-	left: 33%;
-	float: left;
-	height: 250px;
-}
-
-.office {
-	width: 400px;
-	top: 150px;
-	transform: translateX(-50%);
-	left: 66%;
-	position: absolute;
-	height: 250px;
-}
-
-
-.square {
-	top: 150px;
-	left: 33%;
-	position: absolute;
-	transform: translateX(-50%);
-
-	width: 400px;
-	height: 250px;
-	opacity: 0;
-	background-color: black;
-	transition: 0.3s;
-	text-align: center;
-}
-
-.square2 {
-	top: 150px;
-	left: 66%;
-	transform: translateX(-50%);
-	position: absolute;
-	width: 400px;
-	height: 250px;
-	opacity: 0;
-	background-color: black;
-	transition: 0.3s;
-	text-align: center;
-
-}
-
-
-.square2:hover {
-	opacity: 0.5;
-}
-
-.square:hover {
-	opacity: 0.5;
-}
-
-.gettingstarted {
-	font-size: 50px;
-	text-align: center;
-	left: 50%;
-	transform: translateX(-50%);
-	color: black;
-	position: absolute;
-	font-weight: bold;
-	top: 5%;
-}
-
-.whitebackground {
+.year {
 	background-color: white;
-	height: 550px;
-	left: -20px;
-	width: 105%;
-	top: 60%;
+	color: black;
+	top: 250px;
+	width: 31%;
+	font-size: 27px;
 	position: absolute;
-	
+	padding: 10px;
+	padding-left: 15px;
 }
-/*
-.rentdesk {
-	background-color:red;
-	position: relative;
+.school{
+	background-color: black;
+	color: white;
+	top: 300px;
+	width: 40%;
+	position: absolute;
+	font-size: 27px;
+	padding: 10px;
+	padding-left: 15px;
+}
+
+.tabbar {
+	width: 25%;
 	top: 100px;
+	left: 2.5%;
+	height: 340px;
+	background-color: transparent;
+	position: absolute;
+
+}
+
+.profPic {
+	width: 175px;
+	height: 175px;
 	left: 50%;
 	transform: translateX(-50%);
-	opacity: 1;
-	font-size: 20px;
-	z-index: 100;
-}
-*/
-
-#text {
-	margin-top: 110px;
-	color: white;
-	opacity: 1;
-	z-index: 100;
-	font-size: 20px;
+	position: relative;
+	-moz-border-radius: 90px;
+    -webkit-border-radius: 90px;
+    border-radius: 90px;
 }
 
-#text:hover {
-	cursor: pointer;
-}
-
-
-#text2 {
-	margin-top: 110px;
-	color: white;
-	opacity: 1;
-	z-index: 100;
-	font-size: 20px;
-
-}
-
-#text2:hover {
-	cursor: pointer;
-}
-
-
-
-
-/*.rentoffice {
-	background-color:transparent;
-	position: absolute;
-	top: 300px;
-	left: 66%;
+.buttonsOutline {
+	left: 50%;
+	position: relative;
+	top: 10px;
+	height: 148px;
+	width: 175px;
 	transform: translateX(-50%);
-	opacity: 1;
-	font-size: 20px;
-	z-index: 10;
-}*/
+	background-color: 	#40E0D0;
+}
 
-.desksgrid {
-	font-size: 50px;
+.email {
+	position: absolute;
 	text-align: center;
-	left: 50%;
-	transform: translateX(-50%);
-	color: black;
-	position: absolute;
-	font-weight: bold;
-	top: 60px;
+	top:50px;
+	padding-top: 8%;
+	width: 100%;
+	height: 23%;
 }
 
-.whitebackground2 {
-	background-color: #f6f6f6;
-	height: 1000px;
-	left: -20px;
-	width: 105%;
-	top: 950px;
-	position: absolute;
+.email-hover {
+	color:black;
+	transition: .2s;
+	cursor: pointer;
+	background-color:white;
+	opacity: .8;
+	font-size: 17px;
 }
-
-.officesgrid {
-	font-size: 50px;
-	text-align: center;
-	left: 50%;
-	transform: translateX(-50%);
-	color: black;
-	position: absolute;
-	font-weight: bold;
-	top: 60px;
-}
-
-
-.whitebackground3 {
+.email-nonhover {
+	transition: .2s;
+	color: 	black;
 	background-color: white;
-	height: 1000px;
-	left: -20px;
-	width: 105%;
-	top: 1950px;
-	position: absolute;
 }
 
 
-
-
-.contact {
-	font-size: 50px;
+.linkedin {
+	padding-top: 8%;
 	text-align: center;
+	position: absolute;
+	top: 1px;
+	width: 100%;
+	height: 23%;
+}
+
+.linkedin-hover {
+	color:black;
+	transition: .2s;
+	cursor: pointer;
+	background-color:white;
+	opacity: .8;
+	font-size: 17px;
+
+}
+.linkedin-nonhover {
+	transition: .2s;
+	color: 	black;
+	background-color: white;
+}
+
+
+
+.resume {
+	position: absolute;
+	top: 99px;
+	padding-top: 8%;
+	text-align: center;
+	color: #40E0D0;
+	width: 100%;
+	height: 23%;
+	background-color: white;
+}
+
+.resume-hover {
+	color:black;
+	transition: .2s;
+	cursor: pointer;
+	background-color:white;
+	opacity: .8;
+	font-size: 17px;
+}
+.resume-nonhover {
+	transition: .2s;
+	color: 	black;
+	background-color: white;
+}
+
+.resumeTabs {
+	width: 70%;
+	background-color: #40E0D0;
+	height: 40px;
+	left: 30%;
+	position: relative;
+	top: -10px;
+}
+
+.aboutMe {
+	height: 30px;
+	width: 150px;
+	left: 1px;
+	position: absolute;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.aboutMe-nonhover {
+	transition: .2s;
+	background-color: white;
+}
+.aboutMe-hover {
+	transition: .2s;
+	cursor: pointer;
+	background-color:white;
+	opacity: .8;
+	font-size: 17px;
+}
+
+
+.professionalExperience {
+	height: 40px;
+	width: 150px;
+	text-align: center;
+	padding-top: 0px;
+	position: absolute;
+	left: 152px;
+}
+.professionalExperience-nonhover {
+	transition: .2s;
+	background-color: white;
+}
+.professionalExperience-hover {
+	transition: .2s;
+	cursor: pointer;
+	background-color:white;
+	opacity: .8;
+	font-size: 17px;
+}
+
+.projectsTab {
+	height: 30px;
+	width: 140px;
+	text-align: center;
+	padding-top: 10px;
+	position: absolute;
+	left: 303px;
+}
+.projectsTab-nonhover {
+	transition: .2s;
+	background-color: white;
+}
+.projectsTab-hover {
+	transition: .2s;
+	cursor: pointer;
+	background-color:white;
+	opacity: .8;
+	font-size: 17px;
+}
+
+.courseworkTab {
+	height: 30px;
+	width: 150px;
+	text-align: center;
+	padding-top: 10px;
+	position: absolute;
+	left: 444px;
+}
+.courseworkTab-nonhover {
+	transition: .2s;
+	background-color: white;
+}
+.courseworkTab-hover {
+	transition: .2s;
+	cursor: pointer;
+	background-color:white;
+	opacity: .8;
+	font-size: 17px;
+}
+
+.skillsTab {
+	height: 30px;
+	width: 139px;
+	text-align: center;
+	padding-top: 10px;
+	position: absolute;
+	left: 595px;
+}
+.skillsTab-nonhover {
+	transition: .2s;
+	background-color: white;
+}
+.skillsTab-hover {
+	transition: .2s;
+	cursor: pointer;
+	background-color:white;
+	opacity: .8;
+	font-size: 17px;
+}
+
+.Myself {
+	margin-top: 50px;
+	width: 100%;
+	height: 300px;
+	background-color: white;
+}
+
+.Experience {
+	background-color: transparent;
+	width: 100%;
+	height: 650px;
+}
+
+.Projects {
+	height: 350px;
+	width: 100%;
+	background-color: green;
+}
+
+.Coursework {
+	width: 100%;
+	height: 270px;
+	background-color: black;
+
+}
+
+.aboutMeTitle {
+	margin-top: 20px;
+	font-size: 40px;
 	left: 50%;
 	transform: translateX(-50%);
-	color: black;
-	position: absolute;
-	font-weight: bold;
-	top: 60px;
-}
-
-
-.whitebackground4 {
-	background-color: #b5dbe8;
-	height: 450px;
-	left: -20px;
-	width: 105%;
-	top: 2950px;
 	position: absolute;
 }
 
-
-
-.rentoffice {
-	background-color:transparent;
+.line1 {
+	margin-top: 45px;
+	height: 1px;
+	color: #40E0D0;
+	left: 11%;
+	width: 300px;
 	position: absolute;
-	top: 300px;
-	left: 66%;
+	background-color: #40E0D0;
+}
+.line2 {
+	margin-top: 45px;
+	height: 1px;
+	color: #40E0D0;
+	right: 11%;
+	width: 300px;
+	position: absolute;
+	background-color: #40E0D0;
+}
+
+.line3 {
+	margin-top: 0px;
+	height: 1px;
+	color: #40E0D0;
+	left: 11%;
+	width: 200px;
+	position: absolute;
+	background-color: #40E0D0;
+}
+.line4 {
+	margin-top: 0px;
+	height: 1px;
+	color: #40E0D0;
+	right: 11%;
+	width: 170px;
+	position: absolute;
+	background-color: #40E0D0;
+}
+
+.myParagraph {
+	position: relative;
+	text-align: center;
+	font-size: 16px;
+	width: 70%;
+	left: 50%;
+	top: 35%;
 	transform: translateX(-50%);
-	opacity: 1;
-	font-size: 20px;
-	z-index: 10;
 }
 
 
 
 
 
+.experiencePic {
+	width: 100%;
+	height: 100%;
+}
 
-
-
-
-
-
-
-/*.office2 {
-	top: 200px;
-	width: 400px;
+.experiencePicOverlay {
+	width: 100%;
+	height: 650px;
 	position: absolute;
-	transform: translateX(0%) ;
-	left: 50%;
-	float: left;
-	height: 250px;
+	opacity: 0;
+	top: 820px;
 }
 
-.office3 {
-	top: 200px;
-	width: 400px;
+.experienceTitle {
+	position: relative;
+	top: 20px;
+	color:black;
+	font-size: 40px;
+
+	z-index: 90; 
+	background-color: transparent;
+	width: 600px;
+	left: 50%;
+	text-align: center;
+	transform: translateX(-50%);
+	padding-left:30px; 
+
+/*	-moz-border-radius: 0px/0px;
+    -webkit-border-radius: 0px 0px;
+    border-radius: 0px/0px;
+    border:solid 1px*/
+}
+
+.timeline {
+	height: 265px;
+	margin-top: 87px;
+	width: 1px;
+	background-color: black;
+	left: 51%;
 	position: absolute;
-	transform: translateX(-100%) ;
-	left: 50%;
-	float: left;
-	height: 250px;
+    transform: rotate(-38.5deg);  
 }
 
-.office4 {
-	top: 450px;
-	width: 400px;
+.AlfrescoTitle {
+	background-color: transparent;
+	text-align: right;
 	position: absolute;
-	transform: translateX(0%) ;
-	left: 50%;
-	float: left;
-	height: 250px;
+	padding-right: 20px;
+	width: 190px;
+	margin-top: 90px;
+	height: 45px;
+    border-color: #40E0D0;
+    left: 42%;
+    transform: translateX(-100%);
 }
-
-.office5 {
-	top: 450px;
-	width: 400px;
+.alfresco {
+	color: #40E0D0;
+}
+.alfrescoDot {
 	position: absolute;
-	transform: translateX(-100%) ;
-	left: 50%;
-	float: left;
-	height: 250px;
-}*/
+	width: 10px;
+	height: 10px;
+	-moz-border-radius: 10px/10px;
+    -webkit-border-radius: 10px 10px;
+    border-radius: 10px/10px;
+    border:solid 3px;
+    background-color: white;
+    border-color: #40E0D0;
+    left: 210px;
+    top: 12px;
+}
 
-
-
-
-
-.desk2 {
-	top: 200px;
+.alfrescoBullet {
 	position: absolute;
-	transform: translateX(-50%) ;
-	float: left;
-
-}
-
-.desk2-dim {
-	width: 400px;
-	height: 250px;
-	left:33%;
+	width: 350px;
+	margin-top: 10px;
+	text-align: left;
+	left: -120px;
 }
 
 
 
-.desk2-active {
-	width: 800px;
-	height: 500px;
-	left: 50%;
 
-}
 
-.desk2:hover {
-	cursor: pointer;
 
-}
 
-.desk3:hover {
-	cursor: pointer;
 
-}
-.desk4:hover {
-	cursor: pointer;
 
-}
-.desk5:hover {
-	cursor: pointer;
 
-}
 
-.desk3 {
-	top: 200px;
+.zquestTitle {
+	background-color: transparent;
+	text-align: left;
 	position: absolute;
-	transform: translateX(-50%) ;
-	float: left;
-	
+	padding-right: 20px;
+	width: 190px;
+	margin-top: 300px;
+	height: 45px;
+    border-color: #40E0D0;
+    left: 81%;
+    transform: translateX(-100%);
 }
-
-.desk3-dim {
-	width: 400px;
-	height: 250px;
-	left: 66%;
+.zquest {
+	color: #40E0D0;
 }
-
-.desk3-active {
-	width: 800px;
-	height: 500px;
-	left: 50%;
-}
-
-
-.desk4 {
+.zquestDot {
 	position: absolute;
-	transform: translateX(-50%) ;
-	left: 33%;
-	float: left;
+	width: 10px;
+	height: 10px;
+	-moz-border-radius: 10px/10px;
+    -webkit-border-radius: 10px 10px;
+    border-radius: 10px/10px;
+    border:solid 3px;
+    background-color: white;
+    border-color: #40E0D0;
+    left: -30px;
+    top: 12px;
 }
 
-
-.desk4-dim {
-	top: 550px;
-	width: 400px;
-	height: 250px;
-	left: 33%;
-}
-
-.desk4-active {
-	top: 200px;
-	width: 800px;
-	height: 500px;
-	left: 50%;
-}
-
-
-
-.desk5 {
+.zquestBullet {
 	position: absolute;
-	transform: translateX(-50%) ;
-	float: left;
+	width: 350px;
+	margin-top: 10px;
+	text-align: left;
+	left: 0px;
 }
 
-
-.desk5-dim {
-	top: 550px;
-	width: 400px;
-	height: 250px;
-	left: 66%;
-}
-
-.desk5-active {
-	top: 200px;
-	width: 800px;
-	height: 500px;
-	left: 50%;
-}
-
-
-
-
-
-
-
-
-
-.office3:hover {
-	cursor: pointer;
-
-}
-.office4:hover {
-	cursor: pointer;
-
-}
-.office5:hover {
-	cursor: pointer;
-
-}
-
-.office3 {
-	top: 200px;
-	position: absolute;
-	transform: translateX(-50%) ;
-	float: left;
-	
-}
-
-.office3-dim {
-	width: 400px;
-	height: 250px;
-	left: 66%;
-}
-
-.office3-active {
-	width: 800px;
-	height: 500px;
-	left: 50%;
-}
-
-
-.office4 {
-	position: absolute;
-	transform: translateX(-50%) ;
-	left: 33%;
-	float: left;
-}
-
-
-.office4-dim {
-	top: 550px;
-	width: 400px;
-	height: 250px;
-	left: 33%;
-}
-
-.office4-active {
-	top: 200px;
-	width: 800px;
-	height: 500px;
-	left: 50%;
-}
-
-
-
-.office5 {
-	position: absolute;
-	transform: translateX(-50%) ;
-	float: left;
-}
-
-
-.office5-dim {
-	top: 550px;
-	width: 400px;
-	height: 250px;
-	left: 66%;
-}
-
-.office5-active {
-	top: 200px;
-	width: 800px;
-	height: 500px;
-	left: 50%;
-}
-
-.office2 {
-}
-
-.office2-dim {
-	width: 400px;
-	height: 250px;
-	margin-left: 300px;
-	margin-top:200px;
-}
-
-.office2-active {
-	margin-left:300px;
-	width: 800px;
-	height: 500px;
-	margin-top: 200px;
-	margin-left: 350px;
-
-}
 
 
 
