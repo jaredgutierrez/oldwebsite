@@ -17,64 +17,10 @@ $(document).ready(function(){
 
 
 
-	$(".desk2").click(function(){
-		if ($(".desk2").hasClass("desk2-dim")){
-			$(".desk2").removeClass("desk2-dim");
-			$(".desk2").addClass("desk2-active");
-			$(".desk3").css({"display": "none"});
-			$(".desk4").css({"display": "none"});
-			$(".desk5").css({"display": "none"});
-		}
-		else {
-			$(".desk2").removeClass("desk2-active");
-			$(".desk2").addClass("desk2-dim");
-			$(".desk3").css({"display": "show"});
-			$(".desk4").css({"display": "show"});
-			$(".desk5").css({"display": "show"});
-		}
-
-	})
-
-	$(".email").hover(function(){
-		if ($(".email").hasClass("email-hover")){
-			$(".email").removeClass("email-hover");
-			$(".email").addClass("email-nonhover");
-	
-		}
-		else {
-			$(".email").removeClass("email-nonhover");
-			$(".email").addClass("email-hover");
-		}
-	
-
-	})
 
 
-	$(".resume").hover(function(){
-		if ($(".resume").hasClass("resume-hover")){
-			$(".resume").removeClass("resume-hover");
-			$(".resume").addClass("resume-nonhover");
-	
-		}
-		else {
-			$(".resume").removeClass("resume-nonhover");
-			$(".resume").addClass("resume-hover");
-		}
-	
-
-	})
 
 
-	$(".linkedin").hover(function(){
-		if ($(".linkedin").hasClass("linkedin-hover")){
-			$(".linkedin").removeClass("linkedin-hover");
-			$(".linkedin").addClass("linkedin-nonhover");	
-		}
-		else {
-			$(".linkedin").removeClass("linkedin-nonhover");
-			$(".linkedin").addClass("linkedin-hover");
-		}
-	})
 
 	$(".aboutMe").hover(function(){
 		if ($(".aboutMe").hasClass("aboutMe-hover")){
@@ -131,6 +77,28 @@ $(document).ready(function(){
 		}
 	})
 
+	$(".contactTab").hover(function(){
+		if ($(".contactTab").hasClass("contactTab-hover")){
+			$(".contactTab").removeClass("contactTab-hover");
+			$(".contactTab").addClass("contactTab-nonhover");	
+		}
+		else {
+			$(".contactTab").removeClass("contactTab-nonhover");
+			$(".contactTab").addClass("contactTab-hover");
+		}
+	})
+
+	$(".orgsTab").hover(function(){
+		if ($(".orgsTab").hasClass("orgsTab-hover")){
+			$(".orgsTab").removeClass("orgsTab-hover");
+			$(".orgsTab").addClass("orgsTab-nonhover");	
+		}
+		else {
+			$(".orgsTab").removeClass("orgsTab-nonhover");
+			$(".orgsTab").addClass("orgsTab-hover");
+		}
+	})
+
 	$('.aboutMe').click(function() {
 		$('html,body').animate({
 			scrollTop: $('.Myself').offset().top
@@ -139,7 +107,7 @@ $(document).ready(function(){
 
 	$('.professionalExperience').click(function() {
 		$('html,body').animate({
-			scrollTop: $('.Experience').offset().top
+			scrollTop: $('.experiencePic').offset().top
 		}, 500);
 	});
 
@@ -151,15 +119,31 @@ $(document).ready(function(){
 
 	$('.courseworkTab').click(function() {
 		$('html,body').animate({
-			scrollTop: $('.Coursework').offset().top
+			scrollTop: $('.Skills').offset().top
 		}, 500);
 	});
 
 	$('.skillsTab').click(function() {
 		$('html,body').animate({
-			scrollTop: $('.Coursework').offset().top
+			scrollTop: $('.Skills').offset().top
 		}, 500);
 	});
+
+	$('.orgsTab').click(function() {
+		$('html,body').animate({
+			scrollTop: $('.Organizations').offset().top
+		}, 500);
+	});
+
+	$('.contactTab').click(function() {
+		$('html,body').animate({
+			scrollTop: $('.ContactMe').offset().top
+		}, 500);
+	});
+
+
+
+
 
 
 });
