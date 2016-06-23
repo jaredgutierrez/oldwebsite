@@ -146,4 +146,51 @@ $(document).ready(function(){
 
 
 
+
+
+
+
+
+
+	$(".linked").hover(function(){
+		if ($(".linked").hasClass("linked-hover")){
+			$(".linked").removeClass("linked-hover");
+			$(".linked").addClass("linked-nonhover");	
+		}
+		else {
+			$(".linked").removeClass("linked-nonhover");
+			$(".linked").addClass("linked-hover");
+		}
+	})
+
+
+
+	$(".Myemail").hover(function(){
+		if ($(".Myemail").hasClass("Myemail-hover")){
+			$(".Myemail").removeClass("Myemail-hover");
+			$(".Myemail").addClass("Myemail-nonhover");	
+		}
+		else {
+			$(".Myemail").removeClass("Myemail-nonhover");
+			$(".Myemail").addClass("Myemail-hover");
+		}
+	})
+
+
+	$(".facebook").hover(function(){
+		if ($(".facebook").hasClass("facebook-hover")){
+			$(".facebook").removeClass("facebook-hover");
+			$(".facebook").addClass("facebook-nonhover");	
+		}
+		else {
+			$(".facebook").removeClass("facebook-nonhover");
+			$(".facebook").addClass("facebook-hover");
+		}
+	})
+
+
+
+
+
+
 });
