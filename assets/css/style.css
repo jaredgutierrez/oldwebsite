@@ -497,11 +497,11 @@ a img{
 }
 
 .interests {
+	left: 100%;
 	position: absolute;
 	text-align: center;
 	font-size: 16px;
 	width: 90%;
-	left: 50%;
 	margin-top: 60px;
 	transform: translateX(-50%);
 	letter-spacing: .5px;
