@@ -1,286 +1,301 @@
-<!-- This is the work space for the first page of the site--> 
-
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
+	<title></title>
 	<link rel="stylesheet" type="text/css" href="static/assets/css/style.css">
-
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="static/assets/script.js"></script>
+
+	<script src="static/assets/js.js"></script>
+
 </head>
 <body>
-	<div class = "outerLayout">
-		<div class = "innerLayout">
-			<div class = "introduction">
-<!-- 				<div class = "title"> Welcome </div>
- -->				<div class = "image"> 
-					<img class="SanFran" src="static/assets/img/sanfran1.jpeg">
-<!-- 					<div class = "name"> Jared Gutierrez</div>
-					<div class = "year">Computer Science</div>
-					<div class = "school">University of California, Berkeley</div> -->
-				</div>
-				<div class = "tabbar">
-					<img class="overlay1" src="static/assets/img/black.jpg">
+	<div class="fullscreen">
 
-					<img class="profPic" src="static/assets/img/linkedinphoto.jpg">
-					<div class = "buttonsOutline">
-						<div class = "linkedin linkedin-nonhover">JARED GUTIERREZ</div>
-						<div class = "email">COMPUTER SCIENCE</div>
-						<div class = "resume">UC BERKELEY</div>
+		<div class="tab">
+
+		  <button class="tablinks" id="contactTab">CONTACT ME</button>
+		  <button class="tablinks" id="hobbiesTab">HOBBIES</button>
+		  <button class="tablinks" id="projectsTab">PROJECTS</button>
+		  <button class="tablinks" id="educationTab">EDUCATION</button>
+		  <button class="tablinks" id="experienceTab">EXPERIENCE</button>
+		  <button class="tablinks" id="aboutTab">ABOUT</button>
+
+		</div>
+
+		<div id="London" class="tabcontent">
+		  <h3>About Me</h3>
+		  <p>London is the capital city of England.</p>
+		</div>
+
+		<div id="Paris" class="tabcontent">
+		  <h3>Professional Experience</h3>
+		  <p>Paris is the capital of France.</p> 
+		</div>
+
+		<div id="Tokyo" class="tabcontent">
+		  <h3>Hobbies</h3>
+		  <p>Tokyo is the capital of Japan.</p>
+		</div>
+
+
+
+
+		<div id="Content">
+			<div class="header">
+<!-- 				// <script type="static/assets/typed.js-master/lib/typed.js"></script>
+ --><!-- 				// <script type="static/assets/js.js"></script>
+ -->			<img class="headerPic" src="static/assets/img/ocean.jpg">
+				<div class="headerName">JARED GUTIERREZ</div>
+				<div class="headerNameUnderline"></div>
+
+					<div class="element"></div>
+					<script>
+					document.addEventListener("DOMContentLoaded", function(){
+						Typed.new('.element', {
+							strings: ['Welcome to my website','I am a... ','UC Berkeley Student.', 'Aspiring Software Engineer.', "Computer Science Major.", "Feel free to contact me."],
+							typespeed: 0
+						});
+					});
+					</script>
+			</div>
+
+
+
+
+
+
+			<div class="section1">
+				<div id="slider">
+ 					<div class="aboutMeSection">
+ 					<div class="section1square">
+						<div class="square"></div>
 					</div>
-				</div>
-				<div class = "resumeTabs">
-					<div class = "aboutMe aboutMe-nonhover"> ABOUT ME</div>
-					<div class = "professionalExperience professionalExperience-nonhover">  EXPERIENCE</div>
-					<div class = "projectsTab projectsTab-nonhover"> PROJECTS</div>
-					<div class = "courseworkTab courseworkTab-nonhover"> COURSEWORK</div>
-					<div class = "orgsTab orgsTab-nonhover">  ORGANIZATIONS</div>
-					<div class = "skillsTab skillsTab-nonhover">  SKILLS</div>
-					<div class = "contactTab contactTab-nonhover">  CONTACT ME</div>
-				</div>
-			</div>
-
-			<div class = "Myself">
-				<div class = "aboutMeTitle"> ABOUT ME</div>
-				<div class = "line1"></div>
-				<div class = "line2"></div>
-				<div class = "interests">Computer Software | Web Development | Mobile Development</div>
-				<div class = "myParagraph"> I am currently a student at the University of California, Berkeley studying Computer Science. I have taken advantage of all opportunities I have been given to learn more about how software and computer science contributes to the software industry. I am currently looking for Software Engineering Internship opportunities in California for the upcoming summer of 2017 where I will be academically challenged and pushed to learn more about computer programming. 
-				</div>
-
-				<div class = "myParagraph2"> Outside of academics, organizations, and internships, I am an avid guitarist, a competitive dancer, and a driven martial artist. 
-				</div>
-
-			</div>
-
-			<div class = "transitionSquare"></div>
-
-			<img class="experiencePic" src="static/assets/img/sky2.jpeg">
-			<div class = "Experience">
-				
-
-<!--  				<img class="experiencePicOverlay" src="assets/img/black.jpg">		
- -->				
-
- 				<div class = "experienceTitle"> PROFESSIONAL EXPERIENCE</div>
- 				<div class="line3"></div>
- 				<div class = "line4"></div>
- 				<div class = "timeline"></div>
-
- 				<div class = "AlfrescoTitle">
- 					<div class = "alfrescoDot"></div>
- 				 	<div class = "dataOperations">Data Operations Intern</div>
- 					<div class="alfresco">Alfresco Software</div>
- 					<div class = "alfrescoBullet"> 
- 						<ul>
-  							<li>	Review company accounts within the Salesforce database for accuracy and synced them with their information from data.com </li>
- 							<li>Revise and maintain over 9,000 consumer accounts from East Coast, Central America, Canada, and Europe</li>
-  							<li>Shadow systems and sales operations engineers to learn how Alfresco One is maintained, supported, and sold</li>
-						</ul>
- 					</div>
- 				</div>
-
- 				 <div class = "zquestTitle">
- 					<div class = "zquestDot"></div>
- 				 	<div class = "Director">Software Engineering/UX Design Intern</div>
- 					<div class="zquest">Revstream Inc.</div>
- 					<div class = "zquestBullet"> 
- 						<ul>
-  							<li>Designed the user-interface for the upcoming updated release of the company's website and created user data charts corresponding to SQL tables
- 							<li>Implemented modal windows to display documents and editing pages rather than hyper linking</li>
-  							<li>Outlined new and updated features back-end developers are to add and improve on for the next release</li>
-						</ul>
- 					</div>
- 				</div>
-
- 				<div class = "timeline2"></div>
-
- 				<div class = "mdbTitle">
- 					<div class = "mdbDot"></div>
- 				 	<div class = "iOSDev">iOS Developer</div>
- 					<div class="mdb">Mobile Developers of Berkeley</div>
- 					<div class = "mdbBullet"> 
- 						<ul>
-  							<li>Created mini-applications weekly to develop mastery in XCode and Swift</li>
- 							<li>Attended weekly hackshops to learn new concepts to implement into future applications </li>
-  							<li>Developed fundamentals of front-end, back-end, engineering, and design for iOS applications</li>
-  							<li>Work in teams of 4 to develop and publish an application at the end of each semester onto the App Store</li>
-						</ul>
- 					</div>
- 				</div>
-
- 				<div class = "timeline3"></div>
- 				<div class = "pasaeTitle">
- 					<div class = "pasaeDot"></div>
- 				 	<div class = "internalIntern">Internal Relations Intern</div>
- 					<div class="pasae">Pilipino Association of Scientists, Architects, and Engineers</div>
- 					<div class = "pasaeBullet"> 
- 						<ul>
-  							<li>Collaborate with other Pilipino organizations on campus, PASAE aims to increase the population of Filipinos in the higher education and in STEM industries</li>
- 							<li>Work along side the Internal Vice President to manage the other components within the organization and establish activities for professional development meetings</li>
-						</ul>
- 					</div>
- 				</div>
-
-
-
-
-
-			</div>
-			<div class = "transitionSquare2"></div>
-			<div class = "transitionSquare3"></div>
-
-
-
-			<div class = "Projects">
-				<div class = "transitionSquare2"></div>
-				<div class = "transitionSquare3"></div>
-				<div class = "transitionrect1"></div>
-				<div class = "transitionrect2"></div>
-				<div class = "projectsTitle"> PROJECTS</div>
- 				<div class="line5"></div>
- 				<div class = "line6"></div>
-
- 				<div class = "projectlist">
- 					<div class = "project1">
- 						<img class="schemePic" src="static/assets/img/schemePic.png">
- 						<div class = "schemeInfo">
- 							<div class = "schemeTitle">Scheme Interpreter (March 2016)</div>	
- 							<div class = "schemeDesc">Developed an interpreter for a subset of the Scheme language that works with immutable values. (programmed in Python)</div>	
- 						</div>
+					<div class="sectionTitle">ABOUT ME</div>
+					<img class="profpic" src="static/assets/img/profpic.jpg">
+					<div class="section1content">
+						<div class="aboutMeParagraph">Welcome! My name is Jared Gutierrez and I'm currently a Junior at the University of California, Berkeley pursuing a degree in Computer Science. I have experience in fullstack web and iOS development. This summer I am working at NVIDIA as a Software Engineering Intern in Santa Clara, CA. My hobbies outside of academics include Hip-Hop choreography, breakdancing, guitar, and tae kwon do.</div>
+					</div>
 
  					</div>
+ 					<div class="experienceSection">
+ 					<div class="section1square">
+						<div class="square"></div>
+					</div>
+					<div class="sectionTitle">PROFESSIONAL EXPERIENCE</div>
+					<div class="divide1"></div>
+						<div class="leftProfessional">
+							<div class="nvidia">
+								<div class="expTitle">Software Engineering Intern</div>
+								<div class="expInfo">NVIDIA CORPORATION</div>
+								<div class="expDescription">• This summer, I worked on NVIDIA's core software team in Santa Clara, CA as a Software Engineering Intern. I developed an automated command line tool that will assist with the identification and reproduction of computer crashes. </div>
+							</div>
+							<div class="mdb">
+								<div class="expTitle">Web / IOS Developer</div>
+								<div class="expInfo">MOBILE DEVELOPERS OF BERKELEY</div>
+								<div class="expDescription">• In my year and a half in the organization, I had the opportunity to develop and publish iOS and web applications alongside other developers. I was able to develop skills in HTML, CSS, javascript, and swift.</div>
+							</div>
+							<div class="alfresco">
+								<div class="expTitle">Data Operations Intern</div>
+								<div class="expInfo">ALFRESCO SOFTWARE</div>
+								<div class="expDescription">• In summer 2016 I interned at Alfresco Software where I collaborated with the sales development team and account executives to streamline the sale of the Alfresco One's main software product. I Revised and maintained the accuracy of consumer account data from the US, Canada, and Europe.
 
- 					  	<div class = "sincerelyInfo ">
- 							<div class = "sincerelyTitle">Sincerely (May 2016)</div>	
- 							<div class = "sincerelyDesc">A social networking application that allows users to anonymously send positive messages to people within a specified radius.</div>	
- 						</div>
+								</div>
+							</div>
 
-  					<div class = "project2">
-  						<img class="sincerelyPic" src="static/assets/img/SincerelyLogo.png">
-
-  					</div>
-
-
-
- 					<div class = "project3">
- 						<img class="mapsPic" src="static/assets/img/maps.png">
- 						 <div class = "mapsInfo">
- 							<div class = "mapsTitle">Yelp Maps (February 2016)</div>	
- 							<div class = "mapsDesc">Created a visualization of restaurant ratings according to preferences and used a least-squares regression to predict user ratings.</div>	
- 						</div>
+						</div>
+						<div class="rightProfessional">
+							<div class="revstream">
+								<div class="expTitle">Software Engineering Intern</div>
+								<div class="expInfo">REVSTREAM INC.</div>
+								<div class="expDescription">• I worked at Revstreams as a software engineering intern where I collaborated with the development team to design and implement features for the upcoming release of their public website. I implemented new features including modal windows, uploading, documents, and visualizations</div>
+							</div>
+							<div class="labassist">
+								<div class="expTitle">Academic Intern / Tutor</div>
+								<div class="expInfo">UC BERKELEY COMPUTER SCIENCE DEPT.</div>
+								<div class="expDescription">• In my year as an Academic Intern I taught students programming fundumentals and object oriented design for UC Berkeley's introductory CS course. I held one on one tutoring sessions to help prepare students for midterms and finals by reviewing computer science fundamentals
+								</div>
+							</div>
+							<div class="pasae">
+								<div class="expTitle">Internal Relations Intern</div>
+								<div class="expInfo">PILIPINO ASSOCIATION OF ENGINEERS</div>
+								<div class="expDescription">• I collaborated with other Pilipino organizations on campus aiming to increase Filipino presence in higher education and in STEM industries. I worked along side the Internal Vice President to manage the other components within the organization</div>
+							</div>
+						</div>
  					</div>
+ 					<div class="educationSection">
+ 					<div class="section1square">
+						<div class="square"></div>
+					</div>
+					<div class="sectionTitle">EDUCATION</div>
+					<div class="educationHeader">
+						<div class="educationTitle">University of California, Berkeley</div>
+						<div class="educationDivide"></div>
+						<div class="educationMajor">BACHELOR'S DEGREE, B.A. COMPUTER SCIENCE</div>
+						<div class="educationYear">2015 - 2019 | Junior</div>
+						<div class="coursework">
+							<div class="educationTitle">Coursework</div>
+							<div class="courseDivide"></div>
+							<div class="courseList">
+								<div class="courseItem">• Structure and Interpretation of Programming</div>
+								<div class="courseItem">• Data Structures</div>
+								<div class="courseItem">• Discrete Mathematics and Probability Theory</div>
+								<div class="courseItem">• Linear Algebra and Differential Equations</div>
+								<div class="courseItem">• Introduction to Data Science</div>
+								<div class="courseItem">• Web Design</div>
+							</div>
+						</div>
+						<div class="skills">
+							<div class="educationTitle">Skills</div>
+							<div class="courseDivide"></div>
 
-
- 					 <div class = "fosterInfo ">
- 						<div class = "fosterTitle2">Foster Growth (June 2016)</div>	
- 						<div class = "fosterDesc">Developed an iOS mobile application during a hackathon that helps foster kids in San Mateo County prepare for the job application process
-</div>	
- 					</div>
- 					<div class = "project4">
- 						<div class = "fosterTitle"> Foster</div>	
-
- 					</div>
- 			
-
- 				</div>
-
- 				<div class = "transitionSquare4"></div>
-
-
-			</div>
-
-
-
-			<img class="skillsPic" src="static/assets/img/skillsPic.jpg">
-			<div class = "Skills">
-				<div class = "transitionSquare5"></div>
-				<div class = "transitionSquare6"></div>
-				<div class = "transitionrect3"></div>
-				<div class = "transitionrect4"></div>
-
-				<div class = "skillsTitle"> SKILLS</div>
-				<div class = "courseworkTitle">COURSEWORK</div>
-
-				<div class = "skillsBox">
-					 <ul>
-  						<li>Python</li>
- 						<li>Javascript/ CSS / HTML</li>
-  						<li>Swift</li>
-  						<li>Xcode</li>
-  						<li>iOS Development</li>
-					</ul>
-				</div>
-				<div class = "courseBox">
-					<ul>
-  						<li>Linear Algebra and Differential Equations</li>
- 						<li>Web Design</li>
-  						<li>Structure and Interpretations of Computer Programs</li>
-  						<li>Beauty and Joy of Computing</li>
-					</ul>				
-				</div>
-
-
-
-
-
-
-			</div>
-
-
-
-			<div class = "Organizations">
-				<div class = "line7"></div>
-				<div class = "line8"></div>
-				<div class = "orgTitle">ORGANIZATIONS</div>
-				<div class = "orgTiles">
-					<div class = "beamTile">
-						<img class="beamPic" src="static/assets/img/beamPic.jpg">
+						</div>
 
 					</div>
-					<div class = "mdbTile">
-						<img class="mdbPic" src="static/assets/img/mdblogo.png">
+ 					</div>
+ 					<div class="projectsSection">
+ 					<div class="section1square">
+						<div class="square"></div>
+					</div>
+					<div class="sectionTitle">PROJECTS</div>
+					<div class="projects">
+						<div class="projectCol">
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+						</div>
+						<div class="projectCol">
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+						</div>
+						<div class="projectCol">
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+							
+						</div>
+						<div class="projectCol">
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+							<div class="colItem">
+								<img class="colPic" src="static/assets/img/aux.png">
+							</div>
+						</div>
 
 					</div>
-					<div class = "pasaeTile">
-						<img class="pasaePic" src="static/assets/img/pasaelogo.png">
 
+ 					</div>
+ 					<div class="hobbiesSection">
+ 					<div class="section1square">
+						<div class="square"></div>
 					</div>
-					<div class = "idxTile">
-						<img class="idxPic" src="static/assets/img/idxPic.jpg">
+					<div class="sectionTitle">HOBBIES</div>
 
-					</div> 
-					<div class = "exTile"></div> 
+ 					</div>
 
+					
 				</div>
-				
 
+
+
+<!-- 			<div class="section1content">
+					<div class="aboutMeParagraph">Hi! My name is Jared Gutierrez and I'm currently a Junior at the University of California, Berkeley pursuing a degree in Computer Science. I have experience in fullstack web and iOS development. This summer I will be working at NVIDIA as a Software Engineering Intern in Santa Clara, CA. My hobbies outside of academics include Hip-Hop choreography, breakdancing, guitar, and tae kwon do.</div>
+				</div>
+ -->
 
 			</div>
 
-			<div class = "ContactMe">
-			 	<div class = "transitionSquare7"></div>
-			 	<img class="contactPic" src="static/assets/img/contact.jpeg">
-				<div class = "contactTitle">CONTACT ME</div>
-				<div class = "line9"></div>
-				<div class = "line10"></div>
+			<script>
 
-				<div class = "contactFields"> 
-					<div class = "linked linked-nonhover"><a href="https://www.linkedin.com/in/jaredgutierrez">Linkedin</a>    </div>
-					<div class = "Myemail Myemail-nonhover"> <a href="mailto:j.gutierrez1@berkeley.edu">Email Me</a> </div>
-					<div class = "facebook facebook-nonhover"><a href="https://www.facebook.com/jared.gutierrez.10">Facebook</a></div>	
+			document.getElementById("contactTab").onclick = function () { 
+			var width = document.getElementById("slider").offsetWidth
+			var height = document.getElementById("slider").offsetHeight
+				$('html,body').animate({
+					scrollLeft: width * 4,
+					scrollTop:height
 
+				}, 500);
+			};
+			document.getElementById("hobbiesTab").onclick = function () { 
+				var width = document.getElementById("slider").offsetWidth
+				var height = document.getElementById("slider").offsetHeight
+				$('html,body').animate({
+					scrollLeft: width * 4,
+					scrollTop:height
 
-				</div>
-
-
-			
-
-				
-
-				
-			</div>
+				}, 500);
+			};
+			document.getElementById("projectsTab").onclick = function () { 
+				var width = document.getElementById("slider").offsetWidth
+				var height = document.getElementById("slider").offsetHeight
+				console.log(width)
+				$('html,body').animate({
+					scrollLeft: width * 3,
+					scrollTop:height
+				}, 500);
+			};
+			document.getElementById("educationTab").onclick = function () { 
+				var width = document.getElementById("slider").offsetWidth
+				var height = document.getElementById("slider").offsetHeight
+				console.log(width)
+				$('html,body').animate({
+					scrollLeft: width * 2,
+					scrollTop:height
+				}, 500);
+			};
+			document.getElementById("experienceTab").onclick = function () { 
+				var width = document.getElementById("slider").offsetWidth
+				var height = document.getElementById("slider").offsetHeight
+				console.log(width)
+				$('html,body').animate({
+					scrollLeft: width * 1,
+					scrollTop:height
+				}, 500);
+			};			
+			document.getElementById("aboutTab").onclick = function () { 
+				var width = document.getElementById("slider").offsetWidth
+				var height = document.getElementById("slider").offsetHeight
+				console.log(width)
+				$('html,body').animate({
+					scrollLeft: width * 0,
+					scrollTop:height
+				}, 500);
+			};
+		  </script>
 
 
 
@@ -290,8 +305,7 @@
 
 
 		</div>
+
 	</div>
-
-
 </body>
 </html>
