@@ -193,7 +193,6 @@ div.tab button.active {
     right: 13%;
 }
 .revstream {
-    overflow: hidden;
     height: 30%;
     width: 100%;
     position: absolute;
@@ -496,14 +495,12 @@ div.tab button.active {
     top: 0px;
     height: 50%;
     position: absolute;
-    background-color: red;
 
 } 
 .copilot {
     top: 25%;
     left:50%;
     position: absolute;
-    background-color: green;
     height: 50%;
     width: 25%;
     overflow: hidden;
@@ -570,7 +567,6 @@ div.tab button.active {
 .stocks{
     width: 50%;
     height: 25%;
-    background-color: blue;
     position: absolute;
     left: 50%;
     overflow: hidden;
@@ -595,7 +591,6 @@ div.tab button.active {
 .fosterGrowth {
     top: 50%;
     position: absolute;
-    background-color: yellow;
     height: 25%;
     width: 25%;
     left: 75%;
@@ -633,7 +628,6 @@ div.tab button.active {
     top: 55%;
     left: 50%;
     transform:translateY(-50%) translateX(-50%);
-    background-color: red;
     overflow: hidden;
 }
 
