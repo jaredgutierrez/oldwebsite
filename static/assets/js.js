@@ -2,4 +2,152 @@
 //mattboldt.com
 
 
+$(document).ready(function(){
 
+
+
+
+
+
+	$(".aux").click(function(){
+		$(".modal").removeClass("modal-nonactive")
+		$(".modal").addClass("modal-active")
+		console.log("modal now up")
+		$(".modal").css({"display": "show"});
+		$(".auxDesc").css({"display": "show"});
+		$(".newsDesc").css({"display": "none"});
+		$(".sinDesc").css({"display": "none"});
+		$(".copilotDesc").css({"display": "none"});
+		$(".mapsDesc").css({"display": "none"});
+		$(".enigmaDesc").css({"display": "none"});
+		$(".fosterDesc").css({"display": "none"});
+		$(".stocksDesc").css({"display": "none"});
+	})
+
+	$(".newsNow").click(function(){
+		$(".modal").removeClass("modal-nonactive")
+		$(".modal").addClass("modal-active")
+		console.log("modal now up")
+		$(".modal").css({"display": "show"});
+		$(".newsDesc").css({"display": "show"});
+
+		$(".sinDesc").css({"display": "none"});
+		$(".copilotDesc").css({"display": "none"});
+		$(".mapsDesc").css({"display": "none"});
+		$(".enigmaDesc").css({"display": "none"});
+		$(".fosterDesc").css({"display": "none"});
+		$(".stocksDesc").css({"display": "none"});
+		$(".auxDesc").css({"display": "none"});
+
+	})
+	$(".sincerely").click(function(){
+		$(".modal").removeClass("modal-nonactive")
+		$(".modal").addClass("modal-active")
+		console.log("modal now up")
+		$(".auxDesc").css({"display": "none"});
+		$(".newsDesc").css({"display": "none"});
+		$(".modal").css({"display": "show"});
+		$(".sinDesc").css({"display": "show"});
+		$(".copilotDesc").css({"display": "none"});
+		$(".mapsDesc").css({"display": "none"});
+		$(".enigmaDesc").css({"display": "none"});
+		$(".fosterDesc").css({"display": "none"});
+		$(".stocksDesc").css({"display": "none"});
+	})
+	$(".copilot").click(function(){
+		$(".modal").removeClass("modal-nonactive")
+		$(".modal").addClass("modal-active")
+		$(".modal").css({"display": "show"});
+		$(".copilotDesc").css({"display": "show"});
+		$(".auxDesc").css({"display": "none"});
+		$(".newsDesc").css({"display": "none"});
+		$(".sinDesc").css({"display": "none"});
+		$(".mapsDesc").css({"display": "none"});
+		$(".enigmaDesc").css({"display": "none"});
+		$(".fosterDesc").css({"display": "none"});
+		$(".stocksDesc").css({"display": "none"});
+
+	})
+	$(".maps").click(function(){
+		$(".modal").removeClass("modal-nonactive")
+		$(".modal").addClass("modal-active")
+		$(".modal").css({"display": "show"});
+		$(".mapsDesc").css({"display": "show"});
+		$(".auxDesc").css({"display": "none"});
+		$(".newsDesc").css({"display": "none"});
+		$(".sinDesc").css({"display": "none"});
+		$(".copilotDesc").css({"display": "none"});
+		$(".enigmaDesc").css({"display": "none"});
+		$(".fosterDesc").css({"display": "none"});
+		$(".stocksDesc").css({"display": "none"});
+
+	})
+	$(".enigma").click(function(){
+		$(".modal").removeClass("modal-nonactive")
+		$(".modal").addClass("modal-active")
+		$(".modal").css({"display": "show"});
+		$(".enigmaDesc").css({"display": "show"});
+		$(".auxDesc").css({"display": "none"});
+		$(".newsDesc").css({"display": "none"});
+		$(".sinDesc").css({"display": "none"});
+		$(".copilotDesc").css({"display": "none"});
+		$(".mapsDesc").css({"display": "none"});
+		$(".fosterDesc").css({"display": "none"});
+		$(".stocksDesc").css({"display": "none"});
+
+	})
+	$(".fosterGrowth").click(function(){
+		$(".modal").removeClass("modal-nonactive")
+		$(".modal").addClass("modal-active")
+		$(".modal").css({"display": "show"});
+		$(".fosterDesc").css({"display": "show"});
+		$(".auxDesc").css({"display": "none"});
+		$(".newsDesc").css({"display": "none"});
+		$(".sinDesc").css({"display": "none"});
+		$(".copilotDesc").css({"display": "none"});
+		$(".mapsDesc").css({"display": "none"});
+		$(".enigmaDesc").css({"display": "none"});
+		$(".stocksDesc").css({"display": "none"});
+
+	})
+	$(".stocks").click(function(){
+		$(".modal").removeClass("modal-nonactive")
+		$(".modal").addClass("modal-active")
+		$(".modal").css({"display": "show"});
+		$(".stocksDesc").css({"display": "show"});
+		$(".auxDesc").css({"display": "none"});
+		$(".newsDesc").css({"display": "none"});
+		$(".sinDesc").css({"display": "none"});
+		$(".copilotDesc").css({"display": "none"});
+		$(".mapsDesc").css({"display": "none"});
+		$(".enigmaDesc").css({"display": "none"});
+		$(".fosterDesc").css({"display": "none"});
+
+	})
+
+
+	$(".modal").click(function(){
+		$(".modal").removeClass("modal-active")
+		$(".modal").addClass("modal-nonactive")
+		console.log("modal now down")
+		$(".modal").css({"display": "none"});
+		$(".auxDesc").css({"display": "none"});
+		$(".newsDesc").css({"display": "none"});
+		$(".sinDesc").css({"display": "none"});
+		$(".copilotDesc").css({"display": "none"});
+		$(".mapsDesc").css({"display": "none"});
+		$(".enigmaDesc").css({"display": "none"});
+		$(".fosterDesc").css({"display": "none"});
+		$(".stocksDesc").css({"display": "none"});
+	})
+
+
+
+
+
+
+
+
+
+
+});
